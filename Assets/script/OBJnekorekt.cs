@@ -7,7 +7,7 @@ public class OBJnekorekt : MonoBehaviour {
 
     public GameObject capsula2;
 
-    int incorrect;
+    public static int incorrect;
     public Text tincorrect;
     public static int STGincorret;
     public Text tcolor;

@@ -46,7 +46,7 @@ public class OBJkorekt1 : MonoBehaviour {
 
 
         this.GetComponent<Transform>().transform.localPosition =
-    new Vector3(-0.3559999f, 0.25f, 0.3641536f * distanc);
+            new Vector3(-0.3559999f, 0.25f, 0.3641536f * distanc);
 
         capsula.GetComponent<Transform>().transform.localPosition =
             new Vector3(-0.3559999f, 0.25f, -0.5148463f * distanc);

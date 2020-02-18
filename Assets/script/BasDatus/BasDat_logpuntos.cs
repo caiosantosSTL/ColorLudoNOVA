@@ -30,6 +30,7 @@ public class BasDat_logpuntos : MonoBehaviour {
     public GameObject EsKorekto;
     public GameObject NoEsKorekto;
 
+
     IDbConnection dbconn;
     private IDbCommand comand;
     private IDataReader reader;
