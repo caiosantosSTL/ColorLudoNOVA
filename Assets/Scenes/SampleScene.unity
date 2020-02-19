@@ -207,7 +207,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: ed1c50b3cebc9374f9da79ca55dd4e4b, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.75394344
+      value: -0.9987711
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: ed1c50b3cebc9374f9da79ca55dd4e4b, type: 2}
       propertyPath: m_LocalRotation.z
@@ -215,7 +215,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: ed1c50b3cebc9374f9da79ca55dd4e4b, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.6569394
+      value: -0.04956291
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: ed1c50b3cebc9374f9da79ca55dd4e4b, type: 2}
       propertyPath: m_RootOrder
@@ -240,7 +240,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: ed1c50b3cebc9374f9da79ca55dd4e4b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -97.866005
+      value: -185.68199
       objectReference: {fileID: 0}
     - target: {fileID: 100036, guid: ed1c50b3cebc9374f9da79ca55dd4e4b, type: 2}
       propertyPath: m_TagString
@@ -1855,13 +1855,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 285796043}
-  m_LocalRotation: {x: -0, y: 0.7076655, z: -0, w: 0.7065476}
-  m_LocalPosition: {x: -2.7524183, y: 1.2366285, z: 0.4189012}
+  m_LocalRotation: {x: -0, y: -0.008420393, z: -0, w: 0.9999646}
+  m_LocalPosition: {x: -0.282, y: 1.58, z: -0.887}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1409172516}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 90.091, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0.96500003, z: 0}
 --- !u!1 &346763504
 GameObject:
   m_ObjectHideFlags: 0
@@ -4037,13 +4037,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 988812666}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.35800004, y: 0.25, z: -0.5148463}
+  m_LocalRotation: {x: -0, y: -0.6933091, z: -0, w: 0.7206403}
+  m_LocalPosition: {x: 0.349, y: 0.25, z: -0.093331814}
   m_LocalScale: {x: 0.30085, y: 0.30085, z: 0.30085}
   m_Children: []
   m_Father: {fileID: 1116754612}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -87.785, z: 0}
 --- !u!136 &988812668
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4415,13 +4415,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1073821833}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3559999, y: 0.25, z: 0.3641536}
+  m_LocalRotation: {x: -0, y: -0.6933091, z: -0, w: 0.7206403}
+  m_LocalPosition: {x: -0.759, y: 0.25, z: -0.057360888}
   m_LocalScale: {x: 0.30085, y: 0.30085, z: 0.30085}
   m_Children: []
   m_Father: {fileID: 1116754612}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -87.785, z: 0}
 --- !u!114 &1073821839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8956,13 +8956,13 @@ Transform:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1933051564}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.4950352, y: -0.504916, z: -0.504916, w: 0.4950352}
+  m_LocalPosition: {x: 0.2019999, y: 0, z: 1.633}
   m_LocalScale: {x: 3.956068, y: 3.956068, z: 3.956068}
   m_Children: []
   m_Father: {fileID: 1409172516}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -91.132}
 --- !u!23 &1933051566
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9078,7 +9078,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 48
+    m_FontSize: 40
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -9276,7 +9276,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 48
+    m_FontSize: 40
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0

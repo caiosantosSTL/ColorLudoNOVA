@@ -46,10 +46,10 @@ public class OBJkorekt1 : MonoBehaviour {
 
 
         this.GetComponent<Transform>().transform.localPosition =
-            new Vector3(-0.3559999f, 0.25f, 0.3641536f * distanc);
+            new Vector3(-0.759f, 0.25f, -0.05736089f * distanc);
 
         capsula.GetComponent<Transform>().transform.localPosition =
-            new Vector3(-0.3559999f, 0.25f, -0.5148463f * distanc);
+            new Vector3(0.349f, 0.25f, -0.09333181f * distanc);
 
         correct = 0;
         tcorrect.text = "Correcto =  " + correct;
@@ -96,10 +96,10 @@ public class OBJkorekt1 : MonoBehaviour {
                 if (val == 1)
                 {
                     this.GetComponent<Transform>().transform.localPosition =
-                            new Vector3(-0.3559999f, 0.25f, 0.3641536f * distanc);
+                            new Vector3(-0.759f, 0.25f, -0.05736089f * distanc);
 
                     capsula.GetComponent<Transform>().transform.localPosition =
-                            new Vector3(-0.3559999f, 0.25f, -0.5148463f * distanc);
+                            new Vector3(0.349f, 0.25f, -0.09333181f * distanc);
 
                     System.Random r = new System.Random();
                     val = r.Next(0, 2);
@@ -109,10 +109,10 @@ public class OBJkorekt1 : MonoBehaviour {
                 else if (val == 0)
                 {
                     capsula.GetComponent<Transform>().transform.localPosition =
-                            new Vector3(-0.3559999f, 0.25f * subir, 0.3641536f * distanc2);
+                            new Vector3(-0.759f, 0.25f * subir, -0.05736089f * distanc);
 
                     this.GetComponent<Transform>().transform.localPosition =
-                            new Vector3(-0.3559999f, 0.25f * subir, -0.5148463f * distanc2);
+                            new Vector3(0.349f, 0.25f * subir, -0.09333181f * distanc);
 
                     System.Random r = new System.Random();
                     val = r.Next(0, 2);

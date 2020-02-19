@@ -7,7 +7,7 @@ public class RelojRegresiv : MonoBehaviour {
 
     public GameObject UIfinjogo;
 
-    public static int valconta = 30;
+    public static int valconta = 100;
     public static int contador = valconta + 5;
 
     public Text ttempo;
